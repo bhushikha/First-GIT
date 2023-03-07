@@ -13,4 +13,8 @@ console.log(document.images);
 console.log(document.getElementById('header-title'));
 var headerTitle=document.getElementById('header-title');
 console.log(headerTitle)
-
+var items=document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[1]);
+items[2].style.backgroundColor='green';
+items.style.fontWeight='bold';
