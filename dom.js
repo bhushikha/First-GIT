@@ -28,3 +28,12 @@ console.log(items);
 items[1].textContent='Hello 2';
 items[1].style.fontWeight='bold';
 items[1].style.backgroundColor='red';
+var secondItem=document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor='green';
+var thirdtem=document.querySelector('.list-group-item:nth-child(3)');
+secondItem.style.display='none';
+document.querySelectorAll('li')[1].style.color = 'green';
+const oddElements = document.querySelectorAll('li:nth-child(odd)');
+for (let i = 0; i < oddElements.length; i++) {
+ oddElements[i].style.backgroundColor = 'green';
+}
